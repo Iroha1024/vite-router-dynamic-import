@@ -1,13 +1,16 @@
 <template>
-  <router-view></router-view>
+  <Home></Home>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import Home from "./Home.vue";
 
 export default defineComponent({
   name: "App",
-  components: {},
+  components: {
+    Home,
+  },
 });
 </script>
 
